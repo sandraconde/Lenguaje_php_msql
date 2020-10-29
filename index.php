@@ -10,12 +10,23 @@ include 'conexion/index.php';
  	<link rel="stylesheet" href="">
  </head>
  <body>
+
  	<?php 
- 	$var1 = 12:
+
+ 	$var1 = 12;
+ 	echo $var1;
+
  	$var2 = "hola";
+ 	echo $var2;
+
  	$var3 = 13.14;
+ 	echo $var3;
+
  	$var4 = $var1.$var2;
+ 	echo $var4;
+
  	$var5 = $var4;
+ 	echo $var5;
  	 ?>
  </body>
  </html>
